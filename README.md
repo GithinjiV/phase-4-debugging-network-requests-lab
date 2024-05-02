@@ -63,11 +63,12 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  => I first console logged the click function on the update button. From the console I then read the error which pointed me to the toys_controller where I then clocked it.
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: The error was "unexpected end of json from the toys_controller where I saw that the updated toy was not being rendered as json data"
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged:The error read "404 not found" which first led me to chck if it had the correct routes and that was where I found the bug
